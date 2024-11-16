@@ -108,3 +108,4 @@ This results in a total of 54 files corresponding to the individual runs.
 
 - **Execution Time**: The benchmarking process may take several hours depending on your system's specifications.
 - **Data Storage**: During the benchmarking, there will be temporary files created with a total size of up to 5GB. Ensure that you have sufficient storage space for this.
+- **Versioning**: The base Minimap2 program used in this benchmarked and for the modifications is `Release 2.28-r1209 (27 March 2024)`.
