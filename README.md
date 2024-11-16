@@ -31,12 +31,13 @@ Ensure the following software is installed and accessible system-wide (i.e., inc
 
 Your working directory should have the following structure:
 
+```
 . 
 ├── minimap2/ 
 ├── minimap2_mod-mini/ 
 └── mod-mini_eval/ 
     └── benchmark.sh
-    
+```
     
 - `minimap2/`: Directory containing the original minimap2 source code, built and ready for execution.
 - `minimap2_mod-mini/`: Directory containing the modified version of minimap2, also built and ready for execution.
@@ -77,6 +78,7 @@ These flags are applied to each version of minimap2 during the benchmarking proc
 
 After running the script, the output directory will have the following structure:
 
+```
 .
 ├── minimap2_default
 ├── minimap2_HPC
@@ -87,6 +89,7 @@ After running the script, the output directory will have the following structure
 ├── minimap2_mod-mini_w8_HPC
 ├── minimap2_mod-mini_w8_SR
 └── minimap2_SR
+```
 
 Each subdirectory corresponds to a specific version and flag combination.
 
