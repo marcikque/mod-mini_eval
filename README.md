@@ -14,6 +14,7 @@ The script automates the process of calculating various metrics of different ver
 - [Output](#output)
   - [Directory Structure](#directory-structure)
   - [Generated Files](#generated-files)
+  - [Evaluation](#evaluation)
 - [Notes](#notes)
 
 ## Requirements
@@ -103,6 +104,12 @@ Within each flag directory, you will find 6 files, each corresponding to one run
 - Number of high-quality reads identified in the run.
 
 This results in a total of 54 files corresponding to the individual runs.
+
+### Evaluation
+
+After generating all files, you can run the `evaluate_runs.py` script.
+This will create 9 CSV files, each aggregating the results of all 6 runs within the subdirectory.
+The resulting CSV table is a summary of the most important metrics, focusing on performance, accuracy, and minimizer selection.
 
 ## Notes
 
