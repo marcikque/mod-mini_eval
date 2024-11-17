@@ -1,0 +1,42 @@
+../minimap2_mod-mini/minimap2 -a -x sr -w 8 ./aFischeri_Data/GCF_000011805.1_ASM1180v1_genomic.fna ./aFischeri_Data/SRR11648417_1.fastq ./aFischeri_Data/SRR11648417_2.fastq
+
+[M::mm_idx_gen::0.208*1.80] collected minimizers
+[M::mm_idx_gen::0.226*1.89] sorted minimizers
+[M::main::0.226*1.89] loaded/built the index for 3 target sequence(s)
+[M::mm_mapopt_update::0.226*1.89] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 8; is_hpc: 0; #seq: 3
+[M::mm_idx_stat::0.232*1.86] distinct minimizers: 673745 (99.50% are singletons); average occurrences: 1.019; average spacing: 6.227; total length: 4273718
+[M::worker_pipeline::17.216*3.04] mapped 662602 sequences
+[M::worker_pipeline::32.541*3.06] mapped 663326 sequences
+[M::worker_pipeline::47.834*3.07] mapped 663680 sequences
+[M::worker_pipeline::63.293*3.07] mapped 663528 sequences
+[M::worker_pipeline::79.042*3.08] mapped 662598 sequences
+[M::worker_pipeline::94.294*3.08] mapped 663052 sequences
+[M::worker_pipeline::109.702*3.08] mapped 662552 sequences
+[M::worker_pipeline::125.579*3.08] mapped 663038 sequences
+[M::worker_pipeline::137.532*3.06] mapped 550118 sequences
+[M::main] Version: 2.28-r1209
+[M::main] CMD: ../minimap2_mod-mini/minimap2 -a -x sr -w 8 ./aFischeri_Data/GCF_000011805.1_ASM1180v1_genomic.fna ./aFischeri_Data/SRR11648417_1.fastq ./aFischeri_Data/SRR11648417_2.fastq
+[M::main] Real time: 137.607 sec; CPU: 420.365 sec; Peak RSS: 1.749 GB
+
+Flagstat:
+5855603 + 0 in total (QC-passed reads + QC-failed reads)
+5854494 + 0 primary
+0 + 0 secondary
+1109 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+5806436 + 0 mapped (99.16% : N/A)
+5805327 + 0 primary mapped (99.16% : N/A)
+5854494 + 0 paired in sequencing
+2927247 + 0 read1
+2927247 + 0 read2
+5629650 + 0 properly paired (96.16% : N/A)
+5759178 + 0 with itself and mate mapped
+46149 + 0 singletons (0.79% : N/A)
+19540 + 0 with mate mapped to a different chr
+545 + 0 with mate mapped to a different chr (mapQ>=5)
+
+
+MAPQ(>=30):
+155380
