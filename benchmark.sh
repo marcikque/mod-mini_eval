@@ -92,7 +92,6 @@ for VARIANT_NAME in "${!VARIANTS[@]}"; do
             echo "Running $COMMAND $FLAG $REF $QUERY_FILE1 $QUERY_FILE2"
 
             # runs minimap
-            # prepend sudo chrt -f 99 for more deterministic runtime
             $COMMAND $FLAG $REF $QUERY_FILE1 $QUERY_FILE2 > "${OUT_DIR}/tmp.sam" 2> >(tee -a "${LOG}" >&2)
 
             echo "Run Completed, now calculating evaluation metrics."
